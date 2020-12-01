@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="jscalc.css">
+    </head>
+    <body>
+        <div id="container">
+        <h1>Tip Calculator</h1><br>
+        <h3>How much was your bill?</h3><br>
+        <input type="number" class="inputBill"><br>
+        <h3>How many people sharing with you?</h3><br>
+        <input type="number" class="inputPeopleNumber"><br>
+        <h3>How was yor service?</h3><br>
+        <select class="selectService">
+            <option value="0">choose</option>
+            <option value="20">20%</option>
+            <option value="40">40%</option>
+        </select>
+        <button class="calculatorButton" onclick="calculateAmount()">Calculate</button>
+        <div class="getResult"></div>
+
+        <script src="jscalc.js"></script>
+    </div>
+    </body>
+</html> 
